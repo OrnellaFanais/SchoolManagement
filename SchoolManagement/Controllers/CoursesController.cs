@@ -59,6 +59,8 @@ namespace SchoolManagement.Controllers
         }
 
         // GET: Courses/Edit/5
+        //GET : it's what happends when you browse to the edit page but once
+        //you click submit the POST is what happend.
         public ActionResult Edit(int? id)
         {
             if (id == null)
