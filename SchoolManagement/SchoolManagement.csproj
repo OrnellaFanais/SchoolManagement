@@ -186,6 +186,8 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MetaClasses\CoursesMetadata.cs" />
+    <Compile Include="Models\MetaClasses\StudentsMetadata.cs" />
     <Compile Include="Models\SchoolManagementDBModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -212,9 +214,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\slide-1.jpg" />
     <Content Include="Content\Images\slide-3.jpg" />
     <Content Include="Content\Images\slide-2.jpg" />
-    <Content Include="Content\Images\slide-1.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
