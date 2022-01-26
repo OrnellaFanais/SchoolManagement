@@ -177,6 +177,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201261352032_InitialCreate.cs" />
+    <Compile Include="Migrations\202201261352032_InitialCreate.Designer.cs">
+      <DependentUpon>202201261352032_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202201261430519_Added BirthDate.cs" />
+    <Compile Include="Migrations\202201261430519_Added BirthDate.Designer.cs">
+      <DependentUpon>202201261430519_Added BirthDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Course.cs">
       <DependentUpon>SchoolManagementDBModel.tt</DependentUpon>
@@ -221,6 +230,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="mig.txt" />
     <Content Include="Models\SchoolManagementDBModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>SchoolManagementDBModel.edmx</DependentUpon>
@@ -315,6 +325,14 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202201261352032_InitialCreate.resx">
+      <DependentUpon>202201261352032_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201261430519_Added BirthDate.resx">
+      <DependentUpon>202201261430519_Added BirthDate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

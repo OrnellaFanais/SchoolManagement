@@ -1,0 +1,5 @@
+﻿package manager console:
+1) enable-migrations (error!!!)
+enable-migrations -ContextTypeName SchoolManagement.Models.ApplicationDbContext
+2) Add-Migration "Added BirthDate"
+3) Update-Database
